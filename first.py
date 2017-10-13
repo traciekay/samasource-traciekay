@@ -1,3 +1,5 @@
 def divide_number(num1, num2):
-   return num1/num2
-print (divide_number(6,3))
+   try:
+		return (num1/num2)
+	except ZeroDivisionError:
+		print("Cannot Divide by zero")
